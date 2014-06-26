@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+// We can only ensure Generators are available by creating a bin file that
+// requires gnode.
+require('gnode');
+// Required modules can use co to wrap yield statements. See index.js
+var main = require('..');
+main();

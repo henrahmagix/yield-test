@@ -1,0 +1,38 @@
+{
+  "name": "yield-test",
+  "version": "0.0.0",
+  "description": "A small testing station for learning about Generators.",
+  "bin": {
+    "yield-test": "./bin/yield-test"
+  },
+  "dependencies": {
+    "co": "3.0.6",
+    "gnode": "0.0.8",
+  },
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-contrib-watch": "0.6.1",
+    "grunt-shell": "0.7.0",
+    "jit-grunt": "0.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henrahmagix/yield-test.git"
+  },
+  "keywords": [
+    "yield",
+    "test",
+    "generators",
+    "co",
+    "gnode"
+  ],
+  "author": "Henry Blyth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/henrahmagix/yield-test/issues"
+  },
+  "homepage": "https://github.com/henrahmagix/yield-test"
+}
